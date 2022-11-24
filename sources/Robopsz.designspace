@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="opsz" name="opsz" minimum="8" maximum="144" default="8">
+      <labelname xml:lang="en">Optical Size</labelname>
+    </axis>
+  </axes>
+    <rules>
+        <rule name="OpSz13">
+            <conditionset>
+                <condition name="opsz" minimum="13" maximum="13.999"/>
+            </conditionset>
+            <sub name="x" with="A"/>
+        </rule>
+        <rule name="OpSz14">
+            <conditionset>
+                <condition name="opsz" minimum="14" maximum="14.999"/>
+            </conditionset>
+            <sub name="x" with="B"/>
+        </rule>
+        <rule name="OpSz14">
+            <conditionset>
+                <condition name="opsz" minimum="15" maximum="15.999"/>
+            </conditionset>
+            <sub name="x" with="C"/>
+        </rule>
+    </rules>
+    <sources>
+        <source filename="Robopsz_opsz8.ufo" familyname="Robopsz" >
+            <lib copy="1"/>
+            <groups copy="1"/>
+            <features copy="1"/>
+            <info copy="1"/>
+            <location>
+                <dimension name="opsz" xvalue="8"/>
+            </location>
+        </source>
+        <source filename="Robopsz_opsz144.ufo" familyname="Robopsz" >
+            <location>
+                <dimension name="opsz" xvalue="144"/>
+            </location>
+        </source>
+    </sources>
+</designspace>

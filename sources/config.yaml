@@ -1,7 +1,6 @@
+familyName: Robopsz
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - Robopsz.designspace
 axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - opsz
+buildStatic: false
