@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="opsz.138_0" format="2">
+  <advance width="4088"/>
+  <outline>
+    <component base="one"/>
+    <component base="three" xOffset="900"/>
+    <component base="eight" xOffset="1800"/>
+    <component base="period" xOffset="2700"/>
+    <component base="zero" xOffset="3188"/>
+  </outline>
+</glyph>
